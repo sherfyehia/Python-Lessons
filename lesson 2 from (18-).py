@@ -22,3 +22,37 @@ print('###########################change String to Integer , Integer to String (
 # print(type(age2))
 #age3 = int(input("enter your age: "))
 # print(type(age3))
+#################################convert string varible into integer###############################
+print('##################################convert string varible into integer###############################')
+num1 = int(input('Frist number:'))
+num2 = int(input('second number:'))
+print(num1+num2)
+#################################if conditions###############################
+print('############################################if conditions###########################################')
+"""
+if condition
+elif condition
+else
+"""
+x = 30
+y = 30
+if x > y:
+    print('yes it is x is bigger ')
+elif x < y:
+    print('yes that is true y is bigger')
+elif x == y:
+    print('x is equal to y')
+else:
+    print('try again')
+
+a = 10
+b = 5
+if a == 10 and b == 20:
+    print('yes it true')
+else:
+    print('that is wrong')
+
+if a == 10 or b == 20:
+    print('yes it true')
+else:
+    print('that is wrong')
