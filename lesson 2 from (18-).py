@@ -1,5 +1,7 @@
 ##############################Escape series(18)############################
-print("##############################Escape series############################")
+from math import *
+print(
+    "##############################Escape series############################")
 print('learn \npython')
 print('\N{copyright sign}SherifElyehia')
 print('\N{registered sign}SherifElyehia')
@@ -77,6 +79,7 @@ print('\033[1;32;40mSheirf Yehia')
 print('\033[1;33;40mSheirf Yehia')
 print('\033[1;34;40mSheirf Yehia')
 print('\033[1;35;40mSheirf Yehia')
+print('\033[1;34;40mSheirf Yehia')
 ##################################range###############################
 print('##################################range###############################')
 print(range(10))
@@ -86,3 +89,43 @@ print(list(range(1, 100)))
 print('##################################characters###############################')
 for i in range(ord('a'), ord('z')):
     print(chr(i))
+################################strings lower/upper case###########################
+print('################################strings lower/upper case###########################')
+text = ("Abcde is english letter")
+print(text.lower())
+print(text[3])
+print(text.replace("english", "arabic"))
+my_num = -5
+print(str(my_num) + " is my favourite number")
+print(abs(my_num))
+print(str(pow(2, 3)) + "power")
+print(str(max(10, 5)) + "max")
+print((str(min(10, 8))) + "min")
+print((str(round(3.7))) + "round")
+print((str(round(3.4))) + "round")
+print((str(floor(3.7))) + "floor")
+print((str(ceil(3.2))) + "ceil")
+################################varible list###########################
+print('################################varible list###########################')
+friends = [1, 'sherif', 'amr', True, False]
+print(friends[2])
+############################# add value to variable list#######################
+print('############################# add value to variable list #######################')
+add_value_to_variable = ['sherif', 'yehia', 'mostafa', 'khtab', 'khtab']
+add_value_to_variable.append('Rezq')
+print(add_value_to_variable)
+add_value_to_variable.insert(1, "sheko")
+print(add_value_to_variable)
+add_value_to_variable.remove('sherif')
+print(add_value_to_variable)
+add_value_to_variable.pop()
+print(add_value_to_variable)
+print(add_value_to_variable.index('yehia'))
+print(add_value_to_variable.count('khtab'))
+add_value_to_variable.clear()
+print(add_value_to_variable)
+############################# copy value of varible#######################
+print('############################# copy value of varible#######################')
+all_name = ['sherif', 'yehia', 'mostafa']
+copy_of_all_name = all_name.copy()
+print(copy_of_all_name)
