@@ -16,9 +16,7 @@
 # function 2
 
 ##############################Escape series(18)############################
-from math import *
-print(
-    "##############################Escape series############################")
+print("##############################Escape series############################")
 print('learn \npython')
 print('\N{copyright sign}SherifElyehia')
 print('\N{registered sign}SherifElyehia')
