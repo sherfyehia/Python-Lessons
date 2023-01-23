@@ -1,3 +1,14 @@
+# Type of print command
+# exit command
+# print with +
+# variable form
+# value form
+# number of variable in one row
+# type of variable
+# Variables Multiple Assignment
+# Arithmetic Operators
+# Comparison Operators
+
 # =======================================================Type of print command==================================
 print('======================================================Type of print command==================================')
 print('hello')

@@ -1,3 +1,20 @@
+# Escape series(18)
+# input (19)
+# String to Integer , Integer to String (20)
+# convert string varible into integer
+# if conditions
+# example if condition
+# using /n /t /a
+# range
+# characters
+# strings lower/upper case
+# varible list
+# add value to variable list
+# copy value of varible
+# Python Tuples
+# function
+# function 2
+
 ##############################Escape series(18)############################
 from math import *
 print(
@@ -129,3 +146,25 @@ print('############################# copy value of varible######################
 all_name = ['sherif', 'yehia', 'mostafa']
 copy_of_all_name = all_name.copy()
 print(copy_of_all_name)
+############################# Python Tuples#######################
+print('############################# Python Tuples#######################')
+coordinates = (23, 45)  # this tuples is fixed and cannout change
+print(coordinates)
+############################# function #######################
+print('############################# function #######################')
+
+
+def say_hi(name):
+    print('hello' + name)
+
+
+say_hi(' sherif')
+############################# function 2 #######################
+print('############################# function 2 #######################')
+
+
+def cube(num):
+    return num*num*num
+
+
+print(cube(3))
