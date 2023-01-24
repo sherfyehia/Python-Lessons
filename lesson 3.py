@@ -52,17 +52,29 @@ match_string2('sherif', 'yehia')
 ##############################calculator project ############################
 print("##############################calculator project############################")
 
-number1 = float(input('please enter the frist number :'))
-operator = input('please enter the operator: ')
-number2 = float(input('please enter the second number: '))
+# number1 = float(input('please enter the frist number :'))
+# operator = input('please enter the operator: ')
+# number2 = float(input('please enter the second number: '))
 
-if operator == '+':
-    print(number1 + number2)
-elif operator == '-':
-    print(number1 - number2)
-elif operator == '/':
-    print(number1/number2)
-elif operator == '*':
-    print(number1 * number2)
-else:
-    print('wrong operator')
+# if operator == '+':
+#     print(number1 + number2)
+# elif operator == '-':
+#     print(number1 - number2)
+# elif operator == '/':
+#     print(number1/number2)
+# elif operator == '*':
+#     print(number1 * number2)
+# else:
+#     print('wrong operator')
+
+##############################Python Dictionaries ############################
+print("##############################Python Dictionaries############################")
+convert_month = {
+    "jan": "january",
+    "feb": "febraury",
+    "mar": "march"
+}
+
+print(convert_month["mar"])
+print(convert_month.get("feb"))
+print(convert_month.get("apr", "there is not value here"))
