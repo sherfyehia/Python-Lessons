@@ -1,0 +1,6 @@
+Islam - programming Instructor
+pikachu - fronted developer
+subzero - backend developer
+sonic - business analyst
+tails - data analyst
+eren - data enineer
