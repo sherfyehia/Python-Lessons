@@ -85,3 +85,21 @@ workers_file5.close()
 
 ############################## Python Writing Files ############################
 print("############################## Python Writing Files ############################")
+#                           |   r   r+  w   w+  a   a+
+# --------------------------| -----------------------------
+# read                      |   +   +       +       +
+# write                     |       +   +   +   +   +
+# create                    |           +   +   +   +
+# truncate                  |           +   +
+# position at start         |   +   +   +   +
+# position at end           |                   +   +
+
+
+# add new test
+workers_file6 = open("worker.txt", "a+")
+workers_file6.write("\nhunter x hunter - hello world")
+workers_file6.close()
+# creating html file
+workers_file7 = open("index.html", "w")
+workers_file7.write("<p> that is new one</p>")
+workers_file7.close()
