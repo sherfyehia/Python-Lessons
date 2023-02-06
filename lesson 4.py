@@ -103,3 +103,11 @@ workers_file6.close()
 workers_file7 = open("index.html", "w")
 workers_file7.write("<p> that is new one</p>")
 workers_file7.close()
+
+# creating txt and write in file
+
+
+workers_file7 = open("CreatingNewFile", "w")
+list_of_phrases = ["\nfirstline", "\nlastline"]
+workers_file7.writelines(list_of_phrases)
+workers_file7.close()
